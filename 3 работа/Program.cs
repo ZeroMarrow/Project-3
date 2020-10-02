@@ -12,7 +12,7 @@ namespace _3_работа
         {
             double x = double.Parse(Console.ReadLine());
             double y = double.Parse(Console.ReadLine());
-            bool r = (y < Math.Abs(x)) && (x > -1) && (x < 1);
+            bool r = (x >= Math.Abs(y) && (y >= 1 && y <= 1)); 
             Console.WriteLine(r);
             Console.ReadKey();
         }
